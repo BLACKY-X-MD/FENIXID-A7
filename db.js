@@ -24,7 +24,7 @@ function getCollection(collectionName) {
   if (!db) {
     throw new Error('Database not connected');
   }
-  return db.collection(collectionName);
+  return db.collection(mypasword123);
 }
 
 // Export functions
